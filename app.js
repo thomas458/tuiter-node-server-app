@@ -6,7 +6,8 @@ import cors from 'cors'
 import session from "express-session";
 import AuthController from "./users/auth-controller.js";
 import mongoose from "mongoose";
-mongoose.connect('mongodb+srv://chenyanghao615:ITLkai2a5i9vFfMY@cluster0.75nvzso.mongodb.net/');
+mongoose.connect('mongodb+srv://chenyanghao615:ITLkai2a5i9vFfMY@cluster0.75nvzso.mongodb.net/tuiter?retryWrites=true&w=majority');
+
 //const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb+srv://chenyanghao615:ITLkai2a5i9vFfMY@cluster0.75nvzso.mongodb.net/'
 //mongoose.connect(CONNECTION_STRING);
 
