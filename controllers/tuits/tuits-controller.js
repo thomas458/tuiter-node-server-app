@@ -22,7 +22,7 @@ const createTuit = async (req, res) => {
     newTuit.disliked = false;
     //tuits.push(newTuit);
     const insertedTuit = await tuitsDao.createTuit(newTuit);
-    res.json(newTuit)
+    res.json(insertedTuit)
 }
 const deleteTuit = async (req, res) => {
     const tuitdIdToDelete = req.params.tid;

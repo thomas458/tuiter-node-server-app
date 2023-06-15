@@ -32,7 +32,7 @@ export const findUserByCredentials = (username, password) => {
 };
 
 
-export const createUser = (user) => {users.push(user)
+export const createUser = (user) => {
     // return user;
     usersModel.create(user);
 };
