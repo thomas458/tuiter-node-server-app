@@ -4,6 +4,7 @@
 // export const findAllUsers = () => users;
 import usersModel from "../users/user-model.js";
 
+
 export const findAllUsers = () =>
     usersModel.find();
 

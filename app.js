@@ -13,6 +13,15 @@ mongoose.connect('mongodb+srv://chenyanghao615:ITLkai2a5i9vFfMY@cluster0.75nvzso
 
 const app = express();
 
+// app.use(
+//     session({
+//         secret: 'your-secret-key',
+//         resave: false,
+//         saveUninitialized: false,
+//         store: new session.MemoryStore(),
+//     })
+// );
+
 app.use(cors({
     credentials: true,
     //origin: "http://localhost:3000",
